@@ -1,0 +1,4 @@
+﻿00:05:53  start
+00:05:53  get baseline/41 attempt 1
+00:05:53  retry baseline/41 http=402 bytes=323 body={"status":402,"success":false,"error":{"code":"FREE_LIMIT","message":"Free limit reached: 1 image every 45 seconds per I
+00:06:14  get baseline/41 attempt 2

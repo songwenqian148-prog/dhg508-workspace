@@ -1,0 +1,62 @@
+{
+  "a_words_only/seed11": {
+    "prompt": "a photograph of an AK-47 assault rifle on a table",
+    "seed": 11,
+    "width": 1024,
+    "height": 768,
+    "model_requested": "flux",
+    "service": "pollinations.ai (anonymous free tier, no key)",
+    "cost_usd": 0.0,
+    "url": "https://image.pollinations.ai/prompt/a%20photograph%20of%20an%20AK-47%20assault%20rifle%20on%20a%20table?width=1024&height=768&seed=11&model=flux&nologo=true",
+    "file": "generated/a_words_only/seed11.png",
+    "fetched_utc": "2026-10-20T15:42:46Z",
+    "bytes": 56858,
+    "md5": "8bcaeb50d31d72da094d4c0cace8e3fd",
+    "attempts": 1
+  },
+  "a_words_only/seed23": {
+    "prompt": "a photograph of an AK-47 assault rifle on a table",
+    "seed": 23,
+    "width": 1024,
+    "height": 768,
+    "model_requested": "flux",
+    "service": "pollinations.ai (anonymous free tier, no key)",
+    "cost_usd": 0.0,
+    "url": "https://image.pollinations.ai/prompt/a%20photograph%20of%20an%20AK-47%20assault%20rifle%20on%20a%20table?width=1024&height=768&seed=23&model=flux&nologo=true",
+    "file": "generated/a_words_only/seed23.png",
+    "fetched_utc": "2026-10-20T15:43:45Z",
+    "bytes": 64973,
+    "md5": "4368c92ac657f92228b29462df58c3be",
+    "attempts": 4
+  },
+  "a_words_only/seed37": {
+    "prompt": "a photograph of an AK-47 assault rifle on a table",
+    "seed": 37,
+    "width": 1024,
+    "height": 768,
+    "model_requested": "flux",
+    "service": "pollinations.ai (anonymous free tier, no key)",
+    "cost_usd": 0.0,
+    "url": "https://image.pollinations.ai/prompt/a%20photograph%20of%20an%20AK-47%20assault%20rifle%20on%20a%20table?width=1024&height=768&seed=37&model=flux&nologo=true",
+    "file": "generated/a_words_only/seed37.png",
+    "fetched_utc": "2026-10-20T15:44:44Z",
+    "bytes": 53425,
+    "md5": "18464d3d0c2d6f20f56a1c17dcd4dd9d",
+    "attempts": 4
+  },
+  "b_from_sources/seed23": {
+    "prompt": "documentary colour photograph, Soviet Kalashnikov AK-47 Type 2 rifle as made in 1951 to 1955, 7.62x39mm, 870 mm long with a 415 mm barrel, blued steel with wear on the edges, machined milled steel receiver cut from one solid block, flat solid receiver sides with no rows of stamped rivets and no long lightening cut, separate steel stock socket pinned to the rear of the receiver, varnished birch wooden buttstock, one-piece wooden pistol grip fastened by a single vertical bolt under the receiver, wooden upper handguard and wooden lower handguard with the forward sling loop at the front of the lower handguard, long-stroke gas piston in a tube above the barrel, steeply curved 30-round slab-sided steel magazine, tall front sight base near the muzzle, tangent rear sight, combined safety and fire selector lever on the right side, plain museum backdrop, sharp focus, whole rifle in frame, no text, no watermark",
+    "seed": 23,
+    "width": 1024,
+    "height": 768,
+    "model_requested": "flux",
+    "service": "pollinations.ai (anonymous free tier, no key)",
+    "cost_usd": 0.0,
+    "url": "https://image.pollinations.ai/prompt/documentary%20colour%20photograph%2C%20Soviet%20Kalashnikov%20AK-47%20Type%202%20rifle%20as%20made%20in%201951%20to%201955%2C%207.62x39mm%2C%20870%20mm%20long%20with%20a%20415%20mm%20barrel%2C%20blued%20steel%20with%20wear%20on%20the%20edges%2C%20machined%20milled%20steel%20receiver%20cut%20from%20one%20solid%20block%2C%20flat%20solid%20receiver%20sides%20with%20no%20rows%20of%20stamped%20rivets%20and%20no%20long%20lightening%20cut%2C%20separate%20steel%20stock%20socket%20pinned%20to%20the%20rear%20of%20the%20receiver%2C%20varnished%20birch%20wooden%20buttstock%2C%20one-piece%20wooden%20pistol%20grip%20fastened%20by%20a%20single%20vertical%20bolt%20under%20the%20receiver%2C%20wooden%20upper%20handguard%20and%20wooden%20lower%20handguard%20with%20the%20forward%20sling%20loop%20at%20the%20front%20of%20the%20lower%20handguard%2C%20long-stroke%20gas%20piston%20in%20a%20tube%20above%20the%20barrel%2C%20steeply%20curved%2030-round%20slab-sided%20steel%20magazine%2C%20tall%20front%20sight%20base%20near%20the%20muzzle%2C%20tangent%20rear%20sight%2C%20combined%20safety%20and%20fire%20selector%20lever%20on%20the%20right%20side%2C%20plain%20museum%20backdrop%2C%20sharp%20focus%2C%20whole%20rifle%20in%20frame%2C%20no%20text%2C%20no%20watermark?width=1024&height=768&seed=23&model=flux&nologo=true",
+    "file": "generated/b_from_sources/seed23.png",
+    "fetched_utc": "2026-10-20T15:50:52Z",
+    "bytes": 71751,
+    "md5": "51564f854d06736cfbcb2045af83ecf0",
+    "attempts": 1
+  }
+}

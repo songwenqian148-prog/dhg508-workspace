@@ -1,0 +1,6 @@
+﻿00:11:04  start
+00:11:04  get wooden_stock.jpg attempt 1
+00:11:04  retry wooden_stock.jpg http=402 bytes=323
+00:11:44  get wooden_stock.jpg attempt 2
+00:11:54  ok wooden_stock.jpg bytes=86766
+00:12:59  get soviet_1950s.jpg attempt 1

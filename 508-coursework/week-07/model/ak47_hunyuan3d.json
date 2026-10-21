@@ -1,0 +1,17 @@
+{
+  "source": "artifacts/hunyuan/ak47_hunyuan3d_shape.glb",
+  "output": "model/ak47_hunyuan3d.glb",
+  "up_axis": "glTF Y-up; the mesh rests on y = 0",
+  "vertices": 21444,
+  "triangles": 57480,
+  "bbox_mm": [
+    870.0,
+    257.6,
+    61.5
+  ],
+  "scale_applied_to_reach_870mm": 0.4438,
+  "watertight": false,
+  "shells": 14585,
+  "volume_cm3": null,
+  "has_texture": false
+}

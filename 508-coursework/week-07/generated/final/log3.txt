@@ -1,0 +1,4 @@
+﻿00:24:59  start seed11 control
+00:24:59  attempt 1
+00:25:08  ok bytes=90827
+00:25:08  done

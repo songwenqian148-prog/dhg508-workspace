@@ -1,0 +1,8 @@
+# Large or rebuildable outputs live in artifacts/ and are not committed.
+artifacts/*
+!artifacts/README.md
+
+# The student's original download folder: byte-identical copies plus the two
+# download scripts are in sources/raw/, together with provenance.json. Keeping
+# both would double the repository size for no gain.
+ak47_images/

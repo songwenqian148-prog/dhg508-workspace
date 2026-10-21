@@ -1,0 +1,43 @@
+{
+  "baseline/seed11": {
+    "role": "baseline",
+    "prompt": "a photograph of an AK-47 rifle, side view, whole rifle, plain background",
+    "seed": 11,
+    "service": "pollinations.ai anonymous free tier (no key, 1 image / 45 s)",
+    "model_note": "only a default text-to-image model is exposed; the model parameter is ignored",
+    "cost_usd": 0.0,
+    "url": "https://image.pollinations.ai/prompt/a%20photograph%20of%20an%20AK-47%20rifle%2C%20side%20view%2C%20whole%20rifle%2C%20plain%20background?width=1024&height=768&seed=11&nologo=true",
+    "file": "generated/final/baseline/seed11.jpg",
+    "bytes": 58655,
+    "md5": "33a27d9795c045455c8001a67f5325e3",
+    "fetched_utc": "2026-10-20T15:59:30Z",
+    "size_returned": "886x665 JPEG (requested 1024x768)"
+  },
+  "researched/seed11": {
+    "role": "researched",
+    "prompt": "full side view photograph of a 1953 Soviet AK-47 rifle, wooden buttstock, wooden handguards, brown wooden pistol grip, curved black steel magazine, no scope, plain white studio background, one complete rifle, nothing cropped",
+    "seed": 11,
+    "service": "pollinations.ai anonymous free tier (no key, 1 image / 45 s)",
+    "model_note": "only a default text-to-image model is exposed; the model parameter is ignored",
+    "cost_usd": 0.0,
+    "url": "https://image.pollinations.ai/prompt/full%20side%20view%20photograph%20of%20a%201953%20Soviet%20AK-47%20rifle%2C%20wooden%20buttstock%2C%20wooden%20handguards%2C%20brown%20wooden%20pistol%20grip%2C%20curved%20black%20steel%20magazine%2C%20no%20scope%2C%20plain%20white%20studio%20background%2C%20one%20complete%20rifle%2C%20nothing%20cropped?width=1024&height=768&seed=11&nologo=true",
+    "file": "generated/final/researched/seed11.jpg",
+    "bytes": 75492,
+    "md5": "bca473753dfe51de0824ccb5e9c13bdd",
+    "fetched_utc": "2026-10-20T16:05:31Z",
+    "size_returned": "886x665 JPEG (requested 1024x768)"
+  },
+  "researched/wooden_stock": {
+    "role": "researched",
+    "prompt": "a photograph of an AK-47 rifle with a wooden stock and wooden handguard, no scope, side view, whole rifle, plain background",
+    "seed": 61,
+    "service": "pollinations.ai anonymous free tier (no key, 1 image / 45 s)",
+    "model_note": "only a default text-to-image model is exposed; the model parameter is ignored",
+    "size_returned": "886x665 JPEG (requested 1024x768)",
+    "cost_usd": 0.0,
+    "file": "generated/final/researched/wooden_stock.jpg",
+    "bytes": 86766,
+    "md5": "a8859eddde961a684eefd236b3ab26ab",
+    "recorded_utc": "2026-10-20T16:18:33Z"
+  }
+}
