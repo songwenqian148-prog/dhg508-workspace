@@ -23,6 +23,51 @@ embedded materials, 0.4 MB). The same two files are also written to
 git-ignored `artifacts/renders/`.
 **Clip:** 60-frame turntable, 1280×720, 28 samples, one full rotation:
 [`generated/turntable.mp4`](../generated/turntable.mp4).
+**Second clip:** 168-frame field-strip animation, 1280×720, 24 samples:
+[`generated/field_strip.mp4`](../generated/field_strip.mp4). Section
+"Field-strip animation" below.
+
+## Field-strip animation
+
+The animation takes the rifle apart in the order the sources show it being
+stripped, holds the separated parts long enough to label them, and puts it back
+together. It is built by `code/field_strip.py`, which borrows the geometry from
+`code/build_ak47_type2.py` (loaded with runpy) and adds the staging, the camera
+and the labels.
+
+**Order of separation** - following the field-strip photographs
+(`08_ak47_disassembled_parts.jpg`, `10_ak47_field_stripped.jpg`) and the Type 2
+description in S2:
+
+| Step | Group | What moves |
+| --- | --- | --- |
+| 1 | magazine | drops straight down, 300 mm |
+| 2 | dust cover | lifts 190 mm and back 20 mm |
+| 3 | recoil spring and guide | lifts with the bolt group, then slides back another 20 mm |
+| 4 | bolt carrier and gas piston | lifts 240 mm clear of the receiver |
+| 5 | bolt | separates from the carrier: another 50 mm forward, 70 mm up |
+| 6 | handguards | forward 200 mm; upper and lower part company by 50 mm each way |
+| 7 | buttstock, pistol grip, barrel group | buttstock back 170 mm, grip down 130 mm, barrel forward 130 mm |
+
+Steps 1-5 are a real field strip. Steps 6-7 are not: the furniture and barrel do
+not come off in the field, they are separated here only to show what the
+receiver carries, and the subtitle says "seven groups" rather than claiming a
+field strip of all seven.
+
+**Labels.** Ten emissive text objects, billboarded to the camera, scaled up once
+the last part has settled (frame 84) and back down before the reassembly starts
+(frame 110). They name the part, not its dimensions - the dimensions are in the
+table above.
+
+**Staging notes.** The floor is dropped 620 mm for this animation, because the
+magazine ends up at z ≈ −0.56 and would otherwise be clipped by the same floor
+the rifle stands on. The camera opens out to 3.75 m at 50 mm so that the title,
+the buttstock, the magazine and the muzzle all fit in 16:9.
+
+**Files:** frames in `artifacts/frames_strip/` (git-ignored), encoded to
+[`generated/field_strip.mp4`](../generated/field_strip.mp4) by
+`code/encode_strip.py` at 30 fps, 5.6 s. The labelled mid-point is also kept as a
+still: [`generated/renders/07_field_strip_exploded.jpg`](../generated/renders/07_field_strip_exploded.jpg).
 
 ## Dimensions and where each came from
 

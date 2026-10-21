@@ -37,6 +37,8 @@ change that one constant to run them elsewhere.
 | `measure_reference.py` | thresholds `01_ak47_general_view.png` and prints the silhouette landmarks in millimetres; this is where the model's part positions come from. |
 | `build_ak47_type2.py` | builds the AK-47 Type 2 in Blender from those dimensions, sets up the studio and cameras, renders the stills, exports `.blend`/`.glb`, renders the turntable frames. Run headless; see the flags at the bottom of the file. |
 | `encode_video.py` | encodes `artifacts/frames/*.png` into `artifacts/video/turntable.mp4` with the ffmpeg binary from `imageio-ffmpeg`. |
+| `field_strip.py` | the exploded-view animation: borrows the geometry from `build_ak47_type2.py` via runpy, separates the rifle into seven labelled groups in field-strip order, holds, reassembles. `--poster` renders the labelled still, `--frames` renders the 168-frame sequence. |
+| `encode_strip.py` | encodes `artifacts/frames_strip/*.png` into `artifacts/video/field_strip.mp4`. |
 | `hunyuan3d_try.py` | image-to-3D with Hunyuan3D 2 through its official Hugging Face Space: prepares the input image, calls `/generation_all` and falls back to `/shape_generation`, saves the GLB and a JSON record. |
 | `hunyuan3d_probe.py` | the earlier probe that found which endpoints answer an anonymous call. |
 | `hunyuan21_generate.py` | the Hunyuan3D 2.1 attempt (shape + texture); it fails anonymously because 2.1 asks for 270 s of GPU. |

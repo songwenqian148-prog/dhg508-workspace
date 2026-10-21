@@ -1,4 +1,4 @@
-﻿# Week 7 - Image and 3D Generation
+# Week 7 - Image and 3D Generation
 
 **Object:** Kalashnikov AK-47, **stage:** the Type 2 of 1951–1955, the milled
 receiver built between the abandoned stamped Type 1 and the lightened Type 3.
@@ -14,8 +14,9 @@ record of what each tool did.
 | Your repository link, with an index | this file |
 | An object with a history, and the sources kept with their provenance | [`research/object_and_history.md`](research/object_and_history.md), [`research/sources.md`](research/sources.md), images in [`sources/raw/`](sources/raw) |
 | The two images side by side, with answers to step 2 | [`generated/comparison_sheet.png`](generated/comparison_sheet.png) and [`research/comparison.md`](research/comparison.md); the matched-seed control check is [`generated/control_check.png`](generated/control_check.png) |
-| The 3D model: screenshots or a short screen recording | [`generated/renders/`](generated/renders) (nine stills, web size) and [`generated/turntable.mp4`](generated/turntable.mp4); full-resolution PNGs are in the git-ignored `artifacts/renders/` |
-| What you made with it in step 4 | the mesh is exported as [`model/ak47_type2.glb`](model/ak47_type2.glb) for a web viewer, with the editable scene in [`model/ak47_type2.blend`](model/ak47_type2.blend); the turntable clip is the demonstration piece |
+| The 3D model: screenshots or a short screen recording | [`generated/renders/`](generated/renders) (ten stills, web size), [`generated/turntable.mp4`](generated/turntable.mp4) and [`generated/field_strip.mp4`](generated/field_strip.mp4); full-resolution PNGs are in the git-ignored `artifacts/renders/` |
+| The parts separated, labelled | [`generated/field_strip.mp4`](generated/field_strip.mp4) (magazine, dust cover, recoil spring, bolt carrier, bolt, then the furniture; then back together) and the still [`generated/renders/07_field_strip_exploded.jpg`](generated/renders/07_field_strip_exploded.jpg) |
+| What you made with it in step 4 | the mesh is exported as [`model/ak47_type2.glb`](model/ak47_type2.glb) for a web viewer, with the editable scene in [`model/ak47_type2.blend`](model/ak47_type2.blend); the turntable and the field-strip clip are the demonstration pieces |
 | The two 3D routes compared | [`generated/model_route_comparison.png`](generated/model_route_comparison.png), numbers in [`research/model_notes.md`](research/model_notes.md) |
 | What each tool did, what the AI did, what you checked yourself | [`research/tool_log.md`](research/tool_log.md) |
 | At least one real difficulty, with its example | [`research/tool_log.md#difficulties`](research/tool_log.md#difficulties) - the generator cannot draw the object its own prompt describes |
@@ -95,6 +96,10 @@ $blender = "artifacts/tools/blender-4.5.14-windows-x64/blender.exe"
 # 7. encode the frames
 python code/encode_video.py
 
+# 7b. field-strip animation: 168 frames, labelled, then encoded
+& $blender -b --python code/field_strip.py -- --frames --samples 24 --gpu
+python code/encode_strip.py
+
 # 8. image-to-3D route (Hunyuan3D 2, anonymous Space call, ~1 min)
 python code/hunyuan3d_try.py --shape-only --seed 1234 --steps 30 --octree 256
 python code/prepare_hunyuan_asset.py artifacts/hunyuan/ak47_hunyuan3d_shape.glb ak47_hunyuan3d
@@ -128,6 +133,7 @@ week-07/
 |   |-- model_route_comparison.png  Blender script vs Hunyuan3D image-to-3D
 |   |-- renders/               model renders, web size (full size in artifacts/)
 |   |-- turntable.mp4          one full rotation of the hand-built model
+|   |-- field_strip.mp4        the rifle taken apart into labelled groups and reassembled
 |   |-- final/                 the two images used, plus alternates, and their manifests
 |   |-- a_words_only/          round 1 baseline attempts
 |   `-- b_from_sources/        round 1 researched attempt (failed, kept as evidence)
