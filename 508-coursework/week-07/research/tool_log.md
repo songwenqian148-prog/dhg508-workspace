@@ -79,6 +79,13 @@ asks for.
    geometry and no surface colour.
 
 
+9. **The four-stage timeline kept flattening one row.** Stacked vertically, the
+   top row sat closer to the key light and read as a different metal; stacked
+   horizontally, the row nearest the key light did the same. The fix was to put
+   the four rows on one line and light them with a single broad source centred on
+   that line, then set exposure by eye against the backdrop - five poster renders
+   before the four stages matched.
+
 ## Difficulties
 
 The one the assignment asks for, plus the others.

@@ -15,6 +15,7 @@ record of what each tool did.
 | An object with a history, and the sources kept with their provenance | [`research/object_and_history.md`](research/object_and_history.md), [`research/sources.md`](research/sources.md), images in [`sources/raw/`](sources/raw) |
 | The two images side by side, with answers to step 2 | [`generated/comparison_sheet.png`](generated/comparison_sheet.png) and [`research/comparison.md`](research/comparison.md); the matched-seed control check is [`generated/control_check.png`](generated/control_check.png) |
 | The 3D model: screenshots or a short screen recording | [`generated/renders/`](generated/renders) (ten stills, web size), [`generated/turntable.mp4`](generated/turntable.mp4) and [`generated/field_strip.mp4`](generated/field_strip.mp4); full-resolution PNGs are in the git-ignored `artifacts/renders/` |
+| The history in 3D: four receiver stages, 1949-1959 | [`generated/receiver_timeline.mp4`](generated/receiver_timeline.mp4) and the still [`generated/renders/08_receiver_timeline.jpg`](generated/renders/08_receiver_timeline.jpg); what is changed on each stage: [`research/model_notes.md`](research/model_notes.md) |
 | The parts separated, labelled | [`generated/field_strip.mp4`](generated/field_strip.mp4) (magazine, dust cover, recoil spring, bolt carrier, bolt, then the furniture; then back together) and the still [`generated/renders/07_field_strip_exploded.jpg`](generated/renders/07_field_strip_exploded.jpg) |
 | What you made with it in step 4 | the mesh is exported as [`model/ak47_type2.glb`](model/ak47_type2.glb) for a web viewer, with the editable scene in [`model/ak47_type2.blend`](model/ak47_type2.blend); the turntable and the field-strip clip are the demonstration pieces |
 | The two 3D routes compared | [`generated/model_route_comparison.png`](generated/model_route_comparison.png), numbers in [`research/model_notes.md`](research/model_notes.md) |
@@ -100,6 +101,11 @@ python code/encode_video.py
 & $blender -b --python code/field_strip.py -- --frames --samples 24 --gpu
 python code/encode_strip.py
 
+# 7c. historical timeline: four receiver stages, 180 frames
+& $blender -b --python code/variants_timeline.py -- --poster --samples 48 --gpu
+& $blender -b --python code/variants_timeline.py -- --frames --samples 26 --gpu
+python code/encode_strip.py --frames artifacts/frames_timeline --out artifacts/video/receiver_timeline.mp4 --pattern timeline_%04d.png
+
 # 8. image-to-3D route (Hunyuan3D 2, anonymous Space call, ~1 min)
 python code/hunyuan3d_try.py --shape-only --seed 1234 --steps 30 --octree 256
 python code/prepare_hunyuan_asset.py artifacts/hunyuan/ak47_hunyuan3d_shape.glb ak47_hunyuan3d
@@ -134,6 +140,7 @@ week-07/
 |   |-- renders/               model renders, web size (full size in artifacts/)
 |   |-- turntable.mp4          one full rotation of the hand-built model
 |   |-- field_strip.mp4        the rifle taken apart into labelled groups and reassembled
+|   |-- receiver_timeline.mp4  the same rifle at 1949 / 1951 / 1955 / 1959 on a timeline
 |   |-- final/                 the two images used, plus alternates, and their manifests
 |   |-- a_words_only/          round 1 baseline attempts
 |   `-- b_from_sources/        round 1 researched attempt (failed, kept as evidence)

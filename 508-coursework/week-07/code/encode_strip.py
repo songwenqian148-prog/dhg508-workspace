@@ -36,7 +36,8 @@ def main() -> int:
 
     frames_dir = ROOT / args.frames
     out = ROOT / args.out
-    frames = sorted(frames_dir.glob("strip_*.png"))
+    glob_pattern = args.pattern.replace("%04d", "*")
+    frames = sorted(frames_dir.glob(glob_pattern))
     frames = [f for f in frames if f.stat().st_size > 0]
     if len(frames) < 10:
         print(f"only {len(frames)} frames in {frames_dir}", file=sys.stderr)

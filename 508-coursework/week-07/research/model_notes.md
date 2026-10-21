@@ -1,7 +1,9 @@
 # The 3D model: what it is, what it is not
 
 Two routes were actually run, because the brief allows "an agent building it in
-Blender, an image-to-3D service, or both":
+Blender, an image-to-3D service, or both" - and the Blender route was then
+extended backwards and forwards in time, into the four receiver stages of
+1949-1959 (section "Historical timeline"):
 
 - **Route A, built by script in Blender** - the parts model the Type 2 features
   one by one. This is the model used for the renders and the turntable.
@@ -68,6 +70,40 @@ the buttstock, the magazine and the muzzle all fit in 16:9.
 [`generated/field_strip.mp4`](../generated/field_strip.mp4) by
 `code/encode_strip.py` at 30 fps, 5.6 s. The labelled mid-point is also kept as a
 still: [`generated/renders/07_field_strip_exploded.jpg`](../generated/renders/07_field_strip_exploded.jpg).
+
+## Historical timeline: the receiver, 1949 to 1959
+
+The model is not only a Type 2. `code/variants_timeline.py` re-uses the Type 2
+geometry and edits copies of it into the three other stages the sources describe,
+so the argument in [`object_and_history.md`](object_and_history.md) can be looked
+at instead of only read:
+
+| Stage | Receiver | What the variant changes in the mesh | Source |
+| --- | --- | --- | --- |
+| 1949, Type 1 | stamped sheet, welded bolt rails, pinned trunnions | milled lightening pocket and the pinned stock socket removed; two rows of rivets added down each side plus a weld bead; two-piece grip panels suggested with a seam; the muzzle brake/compensator goes back onto the front sight base | S1, S2 |
+| 1951, Type 2 | machined from one block | the base model, unchanged | S2 |
+| 1955, Type 3 | milled, lightened | lightening pocket enlarged; sling loop moved from the lower handguard to the gas block; bayonet lug added; barrel thinned | S2, S1 (3.47 kg) |
+| 1959, AKM | stamped again | Type 1 treatment of the receiver, plus the slanted muzzle brake and the gas-block sling loop | S1, S2 (3.1 kg) |
+
+**These are schematic variants, not four accurate models.** Each one changes
+only the parts the sources name as changed at that date, on the same body, so
+that a viewer can compare like with like. A real Type 1 differs in more ways
+than rivets, and the AKM differs in more ways than a muzzle brake; what is
+deliberately *not* modelled is anything the sources do not state.
+
+**Output:** [`generated/receiver_timeline.mp4`](../generated/receiver_timeline.mp4)
+- 180 frames, 30 fps, 6 s, 1920x800 (the four rifles in a row are much wider than
+  they are tall): the stages appear one by one from left to right, each with year,
+  receiver type and weight, over a horizontal timeline rule, and the camera eases
+  back slightly. The still is
+  [`generated/renders/08_receiver_timeline.jpg`](../generated/renders/08_receiver_timeline.jpg).
+
+**Weight note.** The Type 1 figure of 4.3 kg is from the Modern Firearms
+specification table for the *pattern of 1949*; the sources do not give the Type 2
+separately, so it is marked "4.3 kg*" on screen and the asterisk is explained
+here. The Type 3 figure of 3.47 kg is Wikipedia's, and the AKM's 3.1 kg likewise;
+Modern Firearms says the Type 3 was "about 0.5 kg" lighter than the Type 2, which
+does not agree with 3.47 kg. The discrepancy is recorded, not averaged.
 
 ## Dimensions and where each came from
 

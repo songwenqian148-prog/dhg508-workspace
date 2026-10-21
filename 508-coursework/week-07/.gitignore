@@ -6,3 +6,10 @@ artifacts/*
 # download scripts are in sources/raw/, together with provenance.json. Keeping
 # both would double the repository size for no gain.
 ak47_images/
+
+# Unsolicited hash-named JPEGs that appeared in this folder during rendering;
+# they are unrelated third-party images, not part of the submission.
+/[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f].jpg
+
+# Blender's OptiX kernel cache, written next to the working directory
+optix7cache.db*

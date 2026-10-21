@@ -59,6 +59,11 @@ Visible, checkable differences between the three milled/stamped stages:
 | Muzzle | short brake/compensator | plain | plain | slanted brake |
 | Weight, empty | — | 4.3 kg | 3.47 kg | 3.1 kg |
 
+The same table is also built in 3D, one stage per row, in
+[`generated/receiver_timeline.mp4`](../generated/receiver_timeline.mp4); what
+each variant changes in the mesh is listed in
+[`model_notes.md`](model_notes.md#historical-timeline-the-receiver-1949-to-1959).
+
 Sources for the table: [S1] (dates, weights, chrome-plated barrel on the Type 2),
 [S2] (receiver construction, grip, socket, sling loop, bayonet), and the
 Commons photographs of Type 1 / Type 2 / Type 3 hardware
