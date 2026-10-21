@@ -1,0 +1,6 @@
+﻿# Bandai product photographs (©SOTSU·SUNRISE) are used here only as local visual
+# reference. They are not redistributed through the repository.
+sources/raw/
+
+# Blender's OptiX kernel cache
+optix7cache.db*
