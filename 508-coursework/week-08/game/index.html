@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>图穷 · 荆轲刺秦王</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="frame">
+  <canvas id="screen" width="960" height="540"></canvas>
+  <div id="hud"><span id="act"></span><span id="mode"></span></div>
+</div>
+
+<div id="titlescreen" hidden>
+  <h1>图 穷</h1>
+  <p class="sub">荆 轲 刺 秦 王</p>
+  <p class="src">据《史记·刺客列传》</p>
+  <button id="startbtn">回车 开始</button>
+  <p class="state" id="modelstate"></p>
+</div>
+
+<!-- route select: two clickable cards, no typing -->
+<div id="routescreen" hidden>
+  <h2>这一日，你从谁的眼睛里过？</h2>
+  <div class="routes">
+    <button class="route" type="button" data-route="jingke">
+      <img src="assets/portraits/jingke.png" alt="荆轲">
+      <b>荆 轲</b>
+      <span>燕市 · 太子宫 · 易水 · 咸阳宫</span>
+      <em>走到秦王面前，刺出那一刀</em>
+    </button>
+    <button class="route" type="button" data-route="qinwang">
+      <img src="assets/portraits/qinwang.png" alt="秦王">
+      <b>秦 王</b>
+      <span>咸阳宫 · 九宾之礼</span>
+      <em>坐在案后，看燕使一步步上殿</em>
+    </button>
+    <button class="route" type="button" data-route="palace">
+      <img src="assets/portraits/qinwuyang.png" alt="秦舞阳">
+      <b>咸阳宫</b>
+      <span>图穷匕见 · 十八步</span>
+      <em>跳过前面，直接上殿（史外分支在这里分岔）</em>
+    </button>
+  </div>
+  <p class="hintline">点一位，开始</p>
+</div>
+
+<!-- the dialogue layer: it opens over the walkable world -->
+<div id="stage" hidden>
+  <div class="panel">
+    <div class="speaker">
+      <img id="portrait" alt="">
+      <div id="nameplate"><span id="who"></span><span id="tag" hidden>史外 · 推演</span></div>
+    </div>
+    <div id="line"></div>
+    <div id="transcript"></div>
+    <div id="opts"></div>
+    <form id="sayform" autocomplete="off">
+      <input id="sayinput" maxlength="140" placeholder="你要说什么？直接打字，例如：足下今日食何物？">
+      <button type="submit" id="saybtn">说</button>
+    </form>
+    <div class="foot"><span id="hint"></span><span id="meter"></span></div>
+  </div>
+</div>
+
+<div id="endcard" hidden>
+  <div class="inner">
+    <div id="endtag"></div>
+    <h1 id="endtitle"></h1>
+    <div id="endbody"></div>
+    <div id="endchron"></div>
+    <div class="foot"><button id="endnext">继续</button></div>
+  </div>
+</div>
+
+<div id="filewarn" hidden>
+  <h1>请通过本地服务器打开</h1>
+  <p>这个页面用 ES modules 写成。双击打开（<code>file://</code>）时浏览器会拒绝加载脚本，于是只剩黑屏。</p>
+  <p>任选一种正确方式：</p>
+  <ol>
+    <li>双击 <code>week-08\run_game.cmd</code>，它会启动服务并打开浏览器；</li>
+    <li>在 <code>week-08</code> 目录运行 <code>python code/server.py</code>，然后访问
+      <a href="http://127.0.0.1:8765">http://127.0.0.1:8765</a>。</li>
+  </ol>
+  <p class="small">端口被占用时用 <code>PORT=8766 python code/server.py</code>。</p>
+</div>
+
+<script>
+  // If anything throws while the game boots, say so on the title screen instead
+  // of leaving a black rectangle with no explanation.
+  window.addEventListener('error', function (e) {
+    var el = document.getElementById('modelstate');
+    if (el) {
+      el.textContent = '启动出错：' + (e.message || e.type) + '（先按 Ctrl+F5 强刷；仍失败请把这一行发我）';
+      el.style.color = '#a8352a';
+    }
+  });
+  window.addEventListener('unhandledrejection', function (e) {
+    var el = document.getElementById('modelstate');
+    if (el) {
+      el.textContent = '启动出错：' + ((e.reason && e.reason.message) || e.reason);
+      el.style.color = '#a8352a';
+    }
+  });
+
+  if (location.protocol === 'file:') {
+    document.getElementById('frame').hidden = true;
+    document.getElementById('filewarn').hidden = false;
+  } else {
+    var s = document.createElement('script');
+    s.type = 'module';
+    s.src = 'js/main.js';
+    document.body.appendChild(s);
+  }
+</script>
+</body>
+</html>

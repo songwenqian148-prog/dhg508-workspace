@@ -1,0 +1,6 @@
+{
+  "name": "yishuihan-game",
+  "private": true,
+  "type": "module",
+  "description": "Browser modules for the 易水寒 pixel RPG; no dependencies, no build step."
+}

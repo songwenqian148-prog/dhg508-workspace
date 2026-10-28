@@ -1,0 +1,5 @@
+# generated / large / local-only
+artifacts/
+__pycache__/
+*.pyc
+.env

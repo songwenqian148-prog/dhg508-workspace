@@ -1,0 +1,82 @@
+{
+  "images": [
+    {
+      "slug": "yan_market",
+      "title": "燕市",
+      "prompt": "a narrow market lane inside a mud-walled town at dusk, low timber shop fronts, cloth awnings, three clay wine jars and a butcher's block in the foreground, empty of people, monochrome sumi ink wash painting on rice paper, one faint cinnabar accent, large open sky, quiet, no text",
+      "seed": 227001,
+      "endpoint": "https://image.pollinations.ai/prompt/",
+      "fetched_utc": "2026-10-27T16:57:51+00:00",
+      "raw_bytes": 81180,
+      "raw_sha256": "9b801bed42323c4c117b14380ae2e35c93d05217184a6473c3f2b6ef0e55af83",
+      "web": "generated/illustrations/yan_market.png",
+      "pixel": "generated/illustrations/pixel/yan_market.png",
+      "crop": "2% sides, 3% top, bottom 40 px (service logo) removed"
+    },
+    {
+      "slug": "yi_river",
+      "title": "易水送别",
+      "prompt": "a cold wide river under a low grey sky, wind bent reeds on a muddy bank, bare willows, a rutted dirt road with one small wooden chariot far off, empty of people, monochrome sumi ink wash painting on rice paper, one faint cinnabar accent, large open sky, quiet, no text",
+      "seed": 227002,
+      "endpoint": "https://image.pollinations.ai/prompt/",
+      "fetched_utc": "2026-10-27T16:59:07+00:00",
+      "raw_bytes": 99499,
+      "raw_sha256": "76ba2fc6ef537d0fce02137a7f515e4aa90244be71e5f26260dcc49d170370fd",
+      "web": "generated/illustrations/yi_river.png",
+      "pixel": "generated/illustrations/pixel/yi_river.png",
+      "crop": "2% sides, 3% top, bottom 40 px (service logo) removed"
+    },
+    {
+      "slug": "map_unrolled",
+      "title": "图穷匕见",
+      "prompt": "a long unrolled silk map scroll across a dark polished floor, painted rivers and roads, a short bronze dagger lying on it, one bronze lamp, empty of people, monochrome sumi ink wash painting on rice paper, one faint cinnabar accent, large open sky, quiet, no text",
+      "seed": 227003,
+      "endpoint": "https://image.pollinations.ai/prompt/",
+      "fetched_utc": "2026-10-27T17:02:52+00:00",
+      "raw_bytes": 82453,
+      "raw_sha256": "c68d30f007c157975ad381858602004d72c76d7e62ff1d7122d54cf711a41b36",
+      "web": "generated/illustrations/map_unrolled.png",
+      "pixel": "generated/illustrations/pixel/map_unrolled.png",
+      "crop": "2% sides, 3% top, bottom 40 px (service logo) removed"
+    },
+    {
+      "slug": "pillar_chase",
+      "title": "绕柱",
+      "prompt": "the inside of a great dark timber hall, tall red lacquered columns in shadow, a patterned mat floor, one long straight sword in a black scabbard on the boards, empty of people, monochrome sumi ink wash painting on rice paper, one faint cinnabar accent, large open sky, quiet, no text",
+      "seed": 227004,
+      "endpoint": "https://image.pollinations.ai/prompt/",
+      "fetched_utc": "2026-10-27T17:04:09+00:00",
+      "raw_bytes": 52659,
+      "raw_sha256": "b97c6c66445cc8f922744f589196207ad45f25448cd63881f55063749577ab40",
+      "web": "generated/illustrations/pillar_chase.png",
+      "pixel": "generated/illustrations/pixel/pillar_chase.png",
+      "crop": "2% sides, 3% top, bottom 40 px (service logo) removed"
+    },
+    {
+      "slug": "last_laugh",
+      "title": "倚柱而笑",
+      "prompt": "a dark stain across pale stone floor at the base of a thick red lacquered column, a short bronze dagger struck in the wood, cold grey light, empty of people, monochrome sumi ink wash painting on rice paper, one faint cinnabar accent, large open sky, quiet, no text",
+      "seed": 227005,
+      "endpoint": "https://image.pollinations.ai/prompt/",
+      "fetched_utc": "2026-10-27T17:05:25+00:00",
+      "raw_bytes": 65991,
+      "raw_sha256": "1d72bfbbdc918965d8a124c53686d42eca2997164374213a24f73548b7860c1e",
+      "web": "generated/illustrations/last_laugh.png",
+      "pixel": "generated/illustrations/pixel/last_laugh.png",
+      "crop": "2% sides, 3% top, bottom 40 px (service logo) removed"
+    },
+    {
+      "slug": "epilogue_zhu",
+      "title": "高渐离举筑",
+      "prompt": "a dark empty hall, a long narrow five string zither broken on the floorboards, strings snapped and curling, dust in a shaft of light from a high door, empty of people, monochrome sumi ink wash painting on rice paper, one faint cinnabar accent, large open sky, quiet, no text",
+      "seed": 227006,
+      "endpoint": "https://image.pollinations.ai/prompt/",
+      "fetched_utc": "2026-10-27T17:06:45+00:00",
+      "raw_bytes": 67132,
+      "raw_sha256": "dd99832950edb798d413063e67581fdc9559536ec01538cd96e9aa5f25369b9a",
+      "web": "generated/illustrations/epilogue_zhu.png",
+      "pixel": "generated/illustrations/pixel/epilogue_zhu.png",
+      "crop": "2% sides, 3% top, bottom 40 px (service logo) removed"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "portraits": [
+    {
+      "slug": "jingke",
+      "name": "荆轲",
+      "prompt": "a gaunt weathered Chinese man of thirty five, tired steady eyes, unkempt tied hair, plain dark indigo cross collar robe, the hilt of a straight sword at his shoulder, grave and quiet, ink wash painting on rice paper, sumi ink, desaturated greys with one faint cinnabar accent, plain empty paper background, half length portrait, three quarter view, soft even light, Warring States period China, 3rd century BC, no text, no watermark",
+      "seed": 5000,
+      "fetched_utc": "2026-10-28T02:23:58+00:00",
+      "raw_bytes": 88743,
+      "raw_sha256": "7bc96b7f63470bab26194f789952a9303b959527d743eea25f59ac5f264f87d8",
+      "file": "game/assets/portraits_hd/jingke.jpg",
+      "reviewed": false
+    },
+    {
+      "slug": "goutu",
+      "name": "狗屠",
+      "prompt": "a broad Chinese butcher of forty, thick neck, short untidy beard, coarse hemp robe with a leather apron, a cleaver at his waist, blunt good humoured face, hands of a working man, ink wash painting on rice paper, sumi ink, desaturated greys with one faint cinnabar accent, plain empty paper background, half length portrait, three quarter view, soft even light, Warring States period China, 3rd century BC, no text, no watermark",
+      "seed": 5002,
+      "fetched_utc": "2026-10-28T02:26:21+00:00",
+      "raw_bytes": 89727,
+      "raw_sha256": "7fa27f83c62107f0331aa2ede3bf4a01ea0067265e9431238ea716644f8e0f65",
+      "file": "game/assets/portraits_hd/goutu.jpg",
+      "reviewed": false
+    },
+    {
+      "slug": "gaojianli",
+      "name": "高渐离",
+      "prompt": "a lean Chinese man of thirty, a musician, calm heavy eyes, short beard, hair tied with a plain cloth band, pale grey green cross collar robe, a long lacquered zither edge in the frame, reserved and watchful, ink wash painting on rice paper, sumi ink, desaturated greys with one faint cinnabar accent, plain empty paper background, half length portrait, three quarter view, soft even light, a male figure, Warring States period China, 3rd century BC, no woman, no text, no watermark",
+      "seed": 5001,
+      "fetched_utc": "2026-10-28T02:28:12+00:00",
+      "raw_bytes": 67595,
+      "raw_sha256": "48c980bf6ae0787c2318473889624807d3be977ecb0df89e89b8339664e7b15f",
+      "file": "game/assets/portraits_hd/gaojianli.jpg",
+      "reviewed": false
+    },
+    {
+      "slug": "tianguang",
+      "name": "田光",
+      "prompt": "an old Chinese man of seventy, a recluse, long white hair and beard, deep lined face, sunken wise eyes, plain undyed robe, a wooden staff, dignified and tired, ink wash painting on rice paper, sumi ink, desaturated greys with one faint cinnabar accent, plain empty paper background, half length portrait, three quarter view, soft even light, a male figure, Warring States period China, 3rd century BC, no woman, no text, no watermark",
+      "seed": 5003,
+      "fetched_utc": "2026-10-28T02:29:24+00:00",
+      "raw_bytes": 100061,
+      "raw_sha256": "7325ee6c6128daa7d999e0c8a61ed850cc4f3f616803f61592851d0d9177f3e6",
+      "file": "game/assets/portraits_hd/tianguang.jpg",
+      "reviewed": false
+    },
+    {
+      "slug": "taizidan",
+      "name": "太子丹",
+      "prompt": "a young Chinese prince of twenty five, a man, fine features, anxious downturned mouth, neat hair with a small jade pin, pale silk cross collar robe with a jade pendant, high born and uneasy, ink wash painting on rice paper, sumi ink, desaturated greys with one faint cinnabar accent, plain empty paper background, half length portrait, three quarter view, soft even light, a male figure, Warring States period China, 3rd century BC, no woman, no text, no watermark",
+      "seed": 5004,
+      "fetched_utc": "2026-10-28T02:30:35+00:00",
+      "raw_bytes": 75815,
+      "raw_sha256": "52ac51b7f7749645a71756e4a562761595d74bc94f00485b788f26bfbc8ea2f9",
+      "file": "game/assets/portraits_hd/taizidan.jpg",
+      "reviewed": false
+    },
+    {
+      "slug": "fanyuqi",
+      "name": "樊於期",
+      "prompt": "a Chinese general of fifty, a man, scarred face, short grey beard, lamellar leather armour over a dark robe, a torn red brown cape, grief and anger held in, ink wash painting on rice paper, sumi ink, desaturated greys with one faint cinnabar accent, plain empty paper background, half length portrait, three quarter view, soft even light, a male figure, Warring States period China, 3rd century BC, no woman, no text, no watermark",
+      "seed": 5005,
+      "fetched_utc": "2026-10-28T02:34:15+00:00",
+      "raw_bytes": 86321,
+      "raw_sha256": "f1c5480852b036646ad622094dd8b2190a96e585755226ffc138f3353d78b110",
+      "file": "game/assets/portraits_hd/fanyuqi.jpg",
+      "reviewed": false
+    },
+    {
+      "slug": "qinwang",
+      "name": "秦王政",
+      "prompt": "a severe young Chinese king of thirty, a man, narrow cold eyes, thin mouth, hair in a tight topknot under a tall black lacquered crown, black robe with cinnabar red trim, still and dangerous, ink wash painting on rice paper, sumi ink, desaturated greys with one faint cinnabar accent, plain empty paper background, half length portrait, three quarter view, soft even light, a male figure, Warring States period China, 3rd century BC, no woman, no text, no watermark",
+      "seed": 5007,
+      "fetched_utc": "2026-10-28T02:35:26+00:00",
+      "raw_bytes": 69302,
+      "raw_sha256": "4878f0731b806ecefb6eb35564c6ca7db65a03222589e7fa81e74ce0f422edf4",
+      "file": "game/assets/portraits_hd/qinwang.jpg",
+      "reviewed": false
+    },
+    {
+      "slug": "xiawuju",
+      "name": "夏无且",
+      "prompt": "a Chinese court physician of fifty, a man, mild tired face, neat short beard, grey robe with a cloth medicine pouch at the belt, cautious kind eyes, ink wash painting on rice paper, sumi ink, desaturated greys with one faint cinnabar accent, plain empty paper background, half length portrait, three quarter view, soft even light, a male figure, Warring States period China, 3rd century BC, no woman, no text, no watermark",
+      "seed": 5008,
+      "fetched_utc": "2026-10-28T02:36:38+00:00",
+      "raw_bytes": 99308,
+      "raw_sha256": "d040c3dbcd450a7e2b211b71b78bccd0d59750e1532c0fc718f4ade8053e6470",
+      "file": "game/assets/portraits_hd/xiawuju.jpg",
+      "reviewed": false
+    },
+    {
+      "slug": "guard",
+      "name": "秦郎中",
+      "prompt": "a Chinese palace guard of thirty, a man, hair tied back, dark lamellar armour, halberd shaft across the frame, blank disciplined face, ink wash painting on rice paper, sumi ink, desaturated greys with one faint cinnabar accent, plain empty paper background, half length portrait, three quarter view, soft even light, a male figure, Warring States period China, 3rd century BC, no woman, no text, no watermark",
+      "seed": 5009,
+      "fetched_utc": "2026-10-28T02:37:49+00:00",
+      "raw_bytes": 76060,
+      "raw_sha256": "9c1fcf676de9e04e6e88f974f9d9f774428e066a0e9c6cf5410552e0e5431d20",
+      "file": "game/assets/portraits_hd/guard.jpg",
+      "reviewed": false
+    },
+    {
+      "slug": "qinwuyang",
+      "name": "秦舞阳",
+      "prompt": "a Chinese boy of thirteen, short and slight, sharp frightened eyes, cropped hair, short hemp robe, a knife at his belt, defiant and afraid at once, ink wash painting on rice paper, sumi ink, desaturated greys with one faint cinnabar accent, plain empty paper background, half length portrait, three quarter view, soft even light, a male figure, Warring States period China, 3rd century BC, no woman, no text, no watermark",
+      "seed": 5006,
+      "fetched_utc": "2026-10-28T02:40:49+00:00",
+      "raw_bytes": 75620,
+      "raw_sha256": "20acc58e7b9afbff8ebae8440446afbf554e2b840b7dfa5aac327227273cef54",
+      "file": "game/assets/portraits_hd/qinwuyang.jpg",
+      "reviewed": false
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "items": [
+    {
+      "slug": "yan_market",
+      "name": "燕市",
+      "kind": "scenes",
+      "prompt": "kawaii moe anime background of a cute ancient Chinese market street at dusk, low timber stalls, cloth awnings, clay wine jars, paper lanterns, reeds by a river, soft pastel palette, warm gentle light, clean line art, cute detailed environment, empty of people, no text, no watermark",
+      "seed": 7010,
+      "fetched_utc": "2026-10-28T05:00:40+00:00",
+      "raw_bytes": 89065,
+      "raw_sha256": "f12c73b21429f2821dc087f2e6dacf709beae6cd7fb37e64c7cb0eb789c68eb5",
+      "file": "game/assets/cartoon/scenes/yan_market.png"
+    },
+    {
+      "slug": "taizi_gong",
+      "name": "太子宫",
+      "kind": "scenes",
+      "prompt": "kawaii moe anime background of a cute quiet Chinese palace hall, wooden pillars, woven mats, a long curtain, small bronze braziers, soft light, soft pastel palette, warm gentle light, clean line art, cute detailed environment, empty of people, no text, no watermark",
+      "seed": 7011,
+      "fetched_utc": "2026-10-28T05:01:52+00:00",
+      "raw_bytes": 56771,
+      "raw_sha256": "1e6e7443b1da395f34e383e6bee61c71df2e22ffe2f2ae2c9432817db39d0380",
+      "file": "game/assets/cartoon/scenes/taizi_gong.png"
+    },
+    {
+      "slug": "fanyuqi_room",
+      "name": "舍人馆",
+      "kind": "scenes",
+      "prompt": "kawaii moe anime background of a cute small plain room, low table, a mat, one warm oil lamp, a sword rack, soft shadows, soft pastel palette, warm gentle light, clean line art, cute detailed environment, empty of people, no text, no watermark",
+      "seed": 7012,
+      "fetched_utc": "2026-10-28T05:03:06+00:00",
+      "raw_bytes": 45874,
+      "raw_sha256": "5f7a5350faeba7af397cbc5a9dbd738a51a8eba1e4819f0207a94a67bbda3efa",
+      "file": "game/assets/cartoon/scenes/fanyuqi_room.png"
+    },
+    {
+      "slug": "yi_river",
+      "name": "易水",
+      "kind": "scenes",
+      "prompt": "kawaii moe anime background of a cute cold wide river at dusk, wind bent reeds, bare willows, a dirt road, pink and grey sky, soft pastel palette, warm gentle light, clean line art, cute detailed environment, empty of people, no text, no watermark",
+      "seed": 7013,
+      "fetched_utc": "2026-10-28T05:04:18+00:00",
+      "raw_bytes": 81928,
+      "raw_sha256": "308a3ba3325bb542b26b7dc6f1eddf5c23e1545a118dcf0a7093cd1617478e07",
+      "file": "game/assets/cartoon/scenes/yi_river.png"
+    },
+    {
+      "slug": "xianyang_hall",
+      "name": "咸阳宫",
+      "kind": "scenes",
+      "prompt": "kawaii moe anime background of a cute vast dark throne hall, tall red lacquered pillars, patterned floor, glowing bronze lamps, a low throne, soft pastel palette, warm gentle light, clean line art, cute detailed environment, empty of people, no text, no watermark",
+      "seed": 7014,
+      "fetched_utc": "2026-10-28T05:06:44+00:00",
+      "raw_bytes": 65894,
+      "raw_sha256": "412cdb6d2f15aa156a498e75c1845cd70f7d18ce8445a817c2c53cb80a928194",
+      "file": "game/assets/cartoon/scenes/xianyang_hall.png"
+    },
+    {
+      "slug": "jingke",
+      "name": "荆轲",
+      "kind": "portraits",
+      "prompt": "super deformed chibi anime character, comedy spin-off style, thick black outlines, bold flat colours, huge round head, tiny body, big round eyes with simple highlights, tiny mouth, simple cel shading, plain bright background, no text, no watermark, a young swordsman, short topknot, blue ancient Chinese robe, a sword on his back, determined eyes",
+      "seed": 7000,
+      "fetched_utc": "2026-10-28T06:43:28+00:00",
+      "raw_bytes": 44202,
+      "raw_sha256": "f36f93658b9f02f2968a1e34e87628488c706970d63b6bef3e40643760f56903",
+      "file": "game/assets/cartoon/portraits/jingke.png"
+    },
+    {
+      "slug": "gaojianli",
+      "name": "高渐离",
+      "kind": "portraits",
+      "prompt": "super deformed chibi anime character, comedy spin-off style, thick black outlines, bold flat colours, huge round head, tiny body, big round eyes with simple highlights, tiny mouth, simple cel shading, plain bright background, no text, no watermark, a quiet young musician, short hair with a cloth band, pale green robe, a small zither, soft smile",
+      "seed": 7001,
+      "fetched_utc": "2026-10-28T06:47:00+00:00",
+      "raw_bytes": 35645,
+      "raw_sha256": "2e1992c8a38eb69762b9d6539acde2f45804e44a3f0b846c4a2eda30d553c5aa",
+      "file": "game/assets/cartoon/portraits/gaojianli.png"
+    },
+    {
+      "slug": "goutu",
+      "name": "狗屠",
+      "kind": "portraits",
+      "prompt": "super deformed chibi anime character, comedy spin-off style, thick black outlines, bold flat colours, huge round head, tiny body, big round eyes with simple highlights, tiny mouth, simple cel shading, plain bright background, no text, no watermark, a big cheerful butcher, short beard, leather apron, a cleaver, wide grin",
+      "seed": 7002,
+      "fetched_utc": "2026-10-28T06:48:06+00:00",
+      "raw_bytes": 43511,
+      "raw_sha256": "916c2efb798f4971c956d685731660e74ea287ce8638a10cf3b596be4a81c1eb",
+      "file": "game/assets/cartoon/portraits/goutu.png"
+    },
+    {
+      "slug": "tianguang",
+      "name": "田光",
+      "kind": "portraits",
+      "prompt": "super deformed chibi anime character, comedy spin-off style, thick black outlines, bold flat colours, huge round head, tiny body, big round eyes with simple highlights, tiny mouth, simple cel shading, plain bright background, no text, no watermark, a kind old man, long white beard, plain robe, wooden staff, gentle smile",
+      "seed": 7003,
+      "fetched_utc": "2026-10-28T06:49:12+00:00",
+      "raw_bytes": 43014,
+      "raw_sha256": "271784bc26d625cc913370052c2522ea718f856e677bab0825d4abd32647745b",
+      "file": "game/assets/cartoon/portraits/tianguang.png"
+    },
+    {
+      "slug": "taizidan",
+      "name": "太子丹",
+      "kind": "portraits",
+      "prompt": "super deformed chibi anime character, comedy spin-off style, thick black outlines, bold flat colours, huge round head, tiny body, big round eyes with simple highlights, tiny mouth, simple cel shading, plain bright background, no text, no watermark, a young prince, short hair with a small jade crown, pale silk robe, worried face",
+      "seed": 7004,
+      "fetched_utc": "2026-10-28T06:50:19+00:00",
+      "raw_bytes": 48268,
+      "raw_sha256": "549bf709699082a91d8b9d13911a44f093eb124d0f6c1f510f37f2f3d4776749",
+      "file": "game/assets/cartoon/portraits/taizidan.png"
+    },
+    {
+      "slug": "fanyuqi",
+      "name": "樊於期",
+      "kind": "portraits",
+      "prompt": "super deformed chibi anime character, comedy spin-off style, thick black outlines, bold flat colours, huge round head, tiny body, big round eyes with simple highlights, tiny mouth, simple cel shading, plain bright background, no text, no watermark, a scarred old general, grey beard, lamellar armour, torn red cape, brave frown",
+      "seed": 7005,
+      "fetched_utc": "2026-10-28T06:52:40+00:00",
+      "raw_bytes": 48982,
+      "raw_sha256": "f6883c6c55a65fc013b9162f67a83fb63c2fb0e183e2968fb071a078265507d9",
+      "file": "game/assets/cartoon/portraits/fanyuqi.png"
+    },
+    {
+      "slug": "qinwang",
+      "name": "秦王政",
+      "kind": "portraits",
+      "prompt": "super deformed chibi anime character, comedy spin-off style, thick black outlines, bold flat colours, huge round head, tiny body, big round eyes with simple highlights, tiny mouth, simple cel shading, plain bright background, no text, no watermark, a young king, short black hair under a tall black crown, black robe with red trim, stern face",
+      "seed": 7007,
+      "fetched_utc": "2026-10-28T06:57:26+00:00",
+      "raw_bytes": 50205,
+      "raw_sha256": "956f6f8016038c7f7d6e32a5fb746731b1d1072a296312fc607ca9337a9ccc73",
+      "file": "game/assets/cartoon/portraits/qinwang.png"
+    },
+    {
+      "slug": "xiawuju",
+      "name": "夏无且",
+      "kind": "portraits",
+      "prompt": "super deformed chibi anime character, comedy spin-off style, thick black outlines, bold flat colours, huge round head, tiny body, big round eyes with simple highlights, tiny mouth, simple cel shading, plain bright background, no text, no watermark, a mild old physician, short beard, grey robe, a medicine pouch, worried kind eyes",
+      "seed": 7008,
+      "fetched_utc": "2026-10-28T06:58:33+00:00",
+      "raw_bytes": 38549,
+      "raw_sha256": "47b7e66d6eb1c307989220e494dc87484378b28e3c6c3146b98ebde1f46a9c58",
+      "file": "game/assets/cartoon/portraits/xiawuju.png"
+    },
+    {
+      "slug": "mengjia",
+      "name": "蒙嘉",
+      "kind": "portraits",
+      "prompt": "super deformed chibi anime character, comedy spin-off style, thick black outlines, bold flat colours, huge round head, tiny body, big round eyes with simple highlights, tiny mouth, simple cel shading, plain bright background, no text, no watermark, a smooth court official, thin moustache, dark official robe, a wooden tablet, sly smile",
+      "seed": 7010,
+      "fetched_utc": "2026-10-28T07:03:21+00:00",
+      "raw_bytes": 52679,
+      "raw_sha256": "71b71c5b694690392acd3e2f218c62bf99663ea8c825d3d16b231852d0c2ce19",
+      "file": "game/assets/cartoon/portraits/mengjia.png"
+    },
+    {
+      "slug": "qinwuyang",
+      "name": "秦舞阳",
+      "kind": "portraits",
+      "prompt": "super deformed chibi anime character, comedy spin-off style, thick black outlines, bold flat colours, huge round head, tiny body, big round eyes with simple highlights, tiny mouth, simple cel shading, plain bright background, no text, no watermark, a small boy of thirteen, cropped hair, short hemp robe, a small knife, fierce little face",
+      "seed": 7006,
+      "fetched_utc": "2026-10-28T07:06:20+00:00",
+      "raw_bytes": 48060,
+      "raw_sha256": "8bdd6d85ca7a195f9ae4ce6ffee370c58510fbb9a49746479492d8a7b110ebfa",
+      "file": "game/assets/cartoon/portraits/qinwuyang.png"
+    },
+    {
+      "slug": "guard",
+      "name": "秦郎中",
+      "kind": "portraits",
+      "prompt": "super deformed chibi anime character, comedy spin-off style, thick black outlines, bold flat colours, huge round head, tiny body, big round eyes with simple highlights, tiny mouth, simple cel shading, plain bright background, no text, no watermark, a young palace guard, short hair tied back, dark armour, a tall halberd, serious face",
+      "seed": 7009,
+      "fetched_utc": "2026-10-28T07:07:28+00:00",
+      "raw_bytes": 42213,
+      "raw_sha256": "a51c3285c28f2eee324dec6fd81098411a793551f18df11c0d70e084553c5fd1",
+      "file": "game/assets/cartoon/portraits/guard.png"
+    }
+  ]
+}
